@@ -16,7 +16,15 @@
 
 在 `nodejs` 目录下
 
-**施工中，大约一天后放出可用版本**
+1. 安装依赖: `npm install`
+
+2. 运行
+
+```bash
+$ node ./main.js <XMind ZEN 的安装路径 (含有`locales`、`resources`等文件夹)>
+```
+
+例如: `node ./main.js "C:\\Program Files\\XMind ZEN"`
 
 ## License
 
