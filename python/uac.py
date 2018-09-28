@@ -11,7 +11,7 @@ def is_admin():
         else:
             return True
     except:
-        return False
+        return True
 
 
 def run_as_admin():
