@@ -16,5 +16,5 @@ def is_admin():
 
 def run_as_admin():
     if not is_admin():
-        os.system('powershell Start-Process ' + sys.argv[0] + ' -Verb runas')
+        os.system('powershell Start-Process "\'' + sys.argv[0] + '\'" -Verb runas')
         sys.exit()
