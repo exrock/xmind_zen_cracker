@@ -1,0 +1,22 @@
+{
+  "name": "xmind_zen_cracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xmader/xmind_zen_cracker.git"
+  },
+  "author": "Xmader",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xmader/xmind_zen_cracker/issues"
+  },
+  "homepage": "https://github.com/Xmader/xmind_zen_cracker#readme",
+  "scripts": {
+    "start": "node ./main.js"
+  },
+  "dependencies": {
+    "ffi": "^2.2.0"
+  }
+}
