@@ -16,6 +16,10 @@ add_css = """
 
 if platform.system().lower() == "darwin":
     app_out_dir = "./XMind ZEN.app/Contents/Resources/app/out/"
+
+    if 'XMind ZEN.app' not in os.walk(os.getcwd()).next()[1]:
+        os.chdir("../")
+
 else:
     app_out_dir = "./resources/app/out/"
 

@@ -14,7 +14,7 @@
 
 1. 下载[最新版本可执行文件](https://github.com/Xmader/xmind_zen_cracker/releases/latest)或自行构建
 
-2. 将 `xmind_zen_cracker_MacOS` 复制到 `Xmind Zen.app` 所在目录
+2. 将 `xmind_zen_cracker_MacOS` 复制到 `XMind ZEN.app` 所在目录
 
 3. 运行 `xmind_zen_cracker_MacOS`
 
@@ -26,6 +26,8 @@
 只支持64位操作系统
 
 ## 自行构建
+
+需求: Python >= 2.7 < 3
 
 ```bash
 $ pip install pyinstaller
