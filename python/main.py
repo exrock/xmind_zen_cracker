@@ -7,6 +7,11 @@ import sys
 import uac
 uac.run_as_admin()
 
+if os.path.isdir(sys.argv[0]):
+    os.chdir(sys.argv[0])
+elif os.path.isfile(sys.argv[0]):
+    os.chdir(os.path.dirname(sys.argv[0]))
+
 add_css = """
 
 .evaluation-text {
@@ -16,10 +21,6 @@ add_css = """
 
 if platform.system().lower() == "darwin":
     app_out_dir = "./XMind ZEN.app/Contents/Resources/app/out/"
-
-    if 'XMind ZEN.app' not in os.walk(os.getcwd()).next()[1]:
-        os.chdir("../")
-
 else:
     app_out_dir = "./resources/app/out/"
 
